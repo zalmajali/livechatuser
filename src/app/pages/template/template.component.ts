@@ -507,7 +507,6 @@ constructor(private chooser: Chooser,private transfer: FileTransfer,private came
     const fileTransfer: FileTransferObject = this.transfer.create();
     let valOfArray  = JSON.stringify(this.arraySendToServer);
     let sendValues = {'mainUserName':this.mainUserName,'templateName':this.nameOfTem,'lang':this.languageOfTem,'userName':this.userName,'password':this.password,'apiKey':this.apiKey,'mobile':this.number,'sessionLogin':this.sessionLogin,'msgWa':this.allDataOfMessages,valOfArray};
-    alert(this.apiKey);
     if(this.filedata!=undefined && this.filedata!=null && this.filedata!=""){
       let fileName = "";
       let mimeType: string="";
