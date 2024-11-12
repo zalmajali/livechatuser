@@ -19,8 +19,8 @@
     <preference name="SplashScreen" value="screen" />
     <preference name="SplashScreenDelay" value="3000" />
     <preference name="android-minSdkVersion" value="22" />
-    <preference name="android-targetSdkVersion" value="33" />
-    <preference name="android-compileSdkVersion" value="33" />
+    <preference name="android-targetSdkVersion" value="34" />
+    <preference name="android-compileSdkVersion" value="34" />
     <platform name="android">
         <preference name="AndroidWindowSplashScreenBackground" value="#F48022" />
         <preference name="AndroidWindowSplashScreenAnimatedIcon" value="resources/iconsplash.png" />
